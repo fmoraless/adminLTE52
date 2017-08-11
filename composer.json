@@ -7,7 +7,9 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "acacha/admin-lte-template-laravel": "2.*"
+        "acacha/admin-lte-template-laravel": "2.*",
+        "acoustep/entrust-gui": "5.2.x-dev",
+        "zizaco/entrust": "5.2.x-dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -18,5 +18,13 @@ Route::get('/', function () {
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
     Route::get('/admin', 'HomeController@index');
+    Route::get('/admin', 'UserController@index');
 
 });
+
+Route::resource('products', 'ProductsController');
+
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
